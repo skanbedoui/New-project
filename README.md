@@ -24,14 +24,14 @@ Dataset source:
 
 [Customer Churn Dataset on Kaggle](https://www.kaggle.com/datasets/muhammadshahidazeem/customer-churn-dataset?resource=download)
 
-Download the dataset from Kaggle and place the CSV files in the local `dataset/` folder:
+The dataset CSV files are included in this repository under the local `dataset/` folder:
 
 ```text
 dataset/customer_churn_dataset-training-master.csv
 dataset/customer_churn_dataset-testing-master.csv
 ```
 
-The notebook and dashboard use relative paths, so no machine-specific paths are required. The `dataset/` folder is intentionally ignored by git because dataset files are large/local files.
+The notebook and dashboard use relative paths, so no machine-specific paths are required. If the dataset files are ever removed locally, they can be re-downloaded from the Kaggle source above and restored to the same `dataset/` paths.
 
 ## Machine Learning Workflow
 
@@ -114,7 +114,7 @@ The Streamlit dashboard loads `models/churn_prediction_model.pkl` and supports:
 The polished Word report is:
 
 ```text
-customer_churn_lab_report.docx
+final_customer_churn_report.docx
 ```
 
 It summarizes the project objective, dataset, methodology, required models, tuning results, final evaluation, selected model, inference examples, dashboard artifacts, limitations, and future work.
@@ -128,6 +128,7 @@ It summarizes the project objective, dataset, methodology, required models, tuni
 |-- requirements.txt
 |-- customer_churn_lab_project.ipynb
 |-- customer_churn_lab_report.docx
+|-- final_customer_churn_report.docx
 |-- streamlit_dashboard.py
 |-- dataset/
 |   |-- customer_churn_dataset-training-master.csv
@@ -151,8 +152,7 @@ It summarizes the project objective, dataset, methodology, required models, tuni
 The following are intentionally ignored:
 
 - `.venv/`
-- `dataset/`
 - Python cache files
 - Notebook checkpoints
 
-This keeps the repository clean while allowing the project to run locally after downloading the dataset from Kaggle.
+The dataset is intentionally kept in the repository so the notebook, dashboard, saved artifacts, and final report can be reviewed and reproduced without an additional download step.
