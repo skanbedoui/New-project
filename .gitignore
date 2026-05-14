@@ -8,8 +8,6 @@ __pycache__/
 *.py[cod]
 *.pyo
 
-# Local datasets
-dataset/
 
 # Notebook/runtime noise
 .ipynb_checkpoints/
