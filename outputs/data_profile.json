@@ -1,0 +1,87 @@
+{
+  "data_path": "C:\\Users\\Mega-PC\\Downloads\\customer_churn_dataset-training-master.csv\\customer_churn_dataset-training-master.csv",
+  "raw_rows": 440833,
+  "clean_rows": 440832,
+  "sample_rows": 25000,
+  "target_name": "Churn",
+  "best_model": "Random Forest",
+  "feature_columns": [
+    "Age",
+    "Gender",
+    "Tenure",
+    "Usage Frequency",
+    "Support Calls",
+    "Payment Delay",
+    "Subscription Type",
+    "Contract Length",
+    "Total Spend",
+    "Last Interaction"
+  ],
+  "numeric_features": [
+    "Age",
+    "Tenure",
+    "Usage Frequency",
+    "Support Calls",
+    "Payment Delay",
+    "Total Spend",
+    "Last Interaction"
+  ],
+  "categorical_features": [
+    "Gender",
+    "Subscription Type",
+    "Contract Length"
+  ],
+  "numeric_ranges": {
+    "Age": {
+      "min": 18.0,
+      "max": 65.0,
+      "median": 39.0
+    },
+    "Tenure": {
+      "min": 1.0,
+      "max": 60.0,
+      "median": 32.0
+    },
+    "Usage Frequency": {
+      "min": 1.0,
+      "max": 30.0,
+      "median": 16.0
+    },
+    "Support Calls": {
+      "min": 0.0,
+      "max": 10.0,
+      "median": 3.0
+    },
+    "Payment Delay": {
+      "min": 0.0,
+      "max": 30.0,
+      "median": 12.0
+    },
+    "Total Spend": {
+      "min": 100.0,
+      "max": 1000.0,
+      "median": 661.0
+    },
+    "Last Interaction": {
+      "min": 1.0,
+      "max": 30.0,
+      "median": 14.0
+    }
+  },
+  "categories": {
+    "Gender": [
+      "Female",
+      "Male"
+    ],
+    "Subscription Type": [
+      "Basic",
+      "Premium",
+      "Standard"
+    ],
+    "Contract Length": [
+      "Annual",
+      "Monthly",
+      "Quarterly"
+    ]
+  }
+}

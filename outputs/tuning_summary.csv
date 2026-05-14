@@ -1,0 +1,4 @@
+Model,Best CV F1,Best parameters
+Random Forest,0.9922,"{""classifier__max_depth"": null, ""classifier__n_estimators"": 150}"
+Logistic Regression,0.9027,"{""classifier__C"": 10.0}"
+SVM,0.9014,"{""classifier__estimator__C"": 1.0}"
