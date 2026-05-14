@@ -1,0 +1,20 @@
+# Local Python environment
+.venv/
+venv/
+env/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Local datasets
+dataset/
+
+# Notebook/runtime noise
+.ipynb_checkpoints/
+.jupyter/
+
+# OS/editor files
+.DS_Store
+Thumbs.db

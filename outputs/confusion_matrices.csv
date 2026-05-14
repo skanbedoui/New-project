@@ -1,13 +1,13 @@
 Model,Actual,Predicted,Count
-Random Forest,No churn,No churn,2160
-Random Forest,No churn,Churn,4
-Random Forest,Churn,No churn,45
-Random Forest,Churn,Churn,2791
-Logistic Regression,No churn,No churn,2013
-Logistic Regression,No churn,Churn,151
-Logistic Regression,Churn,No churn,389
-Logistic Regression,Churn,Churn,2447
-SVM,No churn,No churn,1965
-SVM,No churn,Churn,199
-SVM,Churn,No churn,340
-SVM,Churn,Churn,2496
+Logistic Regression,No churn,No churn,430
+Logistic Regression,No churn,Churn,1675
+Logistic Regression,Churn,No churn,15
+Logistic Regression,Churn,Churn,1880
+KNN,No churn,No churn,512
+KNN,No churn,Churn,1593
+KNN,Churn,No churn,68
+KNN,Churn,Churn,1827
+Random Forest,No churn,No churn,172
+Random Forest,No churn,Churn,1933
+Random Forest,Churn,No churn,4
+Random Forest,Churn,Churn,1891

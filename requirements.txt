@@ -3,7 +3,9 @@ numpy
 scikit-learn
 matplotlib
 seaborn
-nbformat
 joblib
 streamlit
 plotly
+jupyter
+nbformat
+nbconvert
