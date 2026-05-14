@@ -1,8 +1,8 @@
 {
   "best_model": "Logistic Regression",
-  "model_path": "models/churn_prediction_model.pkl",
-  "training_file": "dataset/customer_churn_dataset-training-master.csv",
-  "testing_file": "dataset/customer_churn_dataset-testing-master.csv",
+  "model_path": "models\\churn_prediction_model.pkl",
+  "training_file": "dataset\\customer_churn_dataset-training-master.csv",
+  "testing_file": "dataset\\customer_churn_dataset-testing-master.csv",
   "feature_columns": [
     "Age",
     "Gender",

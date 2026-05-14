@@ -1,4 +1,4 @@
 Age,Gender,Tenure,Usage Frequency,Support Calls,Payment Delay,Subscription Type,Contract Length,Total Spend,Last Interaction,Predicted Churn,Churn Probability,Interpretation
-24,Female,4,5,8,28,Basic,Monthly,220,26,1,0.9999999869192473,Retention action recommended
-46,Male,48,24,1,2,Premium,Annual,890,4,0,0.005257647981883927,Lower churn risk based on current profile
-61,Female,18,11,5,17,Standard,Quarterly,540,14,1,0.9860838529673335,Retention action recommended
+24,Female,4,5,8,28,Basic,Monthly,220,26,1,0.9999999869192502,Retention action recommended
+46,Male,48,24,1,2,Premium,Annual,890,4,0,0.005257647983370765,Lower churn risk based on current profile
+61,Female,18,11,5,17,Standard,Quarterly,540,14,1,0.9860838529653428,Retention action recommended

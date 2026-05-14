@@ -1,0 +1,212 @@
+{
+  "raw_train_shape": [
+    440833,
+    12
+  ],
+  "raw_test_shape": [
+    64374,
+    12
+  ],
+  "clean_train_shape": [
+    440832,
+    12
+  ],
+  "clean_test_shape": [
+    64374,
+    12
+  ],
+  "missing_train": {
+    "CustomerID": 1,
+    "Age": 1,
+    "Gender": 1,
+    "Tenure": 1,
+    "Usage Frequency": 1,
+    "Support Calls": 1,
+    "Payment Delay": 1,
+    "Subscription Type": 1,
+    "Contract Length": 1,
+    "Total Spend": 1,
+    "Last Interaction": 1,
+    "Churn": 1
+  },
+  "missing_test": {
+    "CustomerID": 0,
+    "Age": 0,
+    "Gender": 0,
+    "Tenure": 0,
+    "Usage Frequency": 0,
+    "Support Calls": 0,
+    "Payment Delay": 0,
+    "Subscription Type": 0,
+    "Contract Length": 0,
+    "Total Spend": 0,
+    "Last Interaction": 0,
+    "Churn": 0
+  },
+  "duplicates_train": 0,
+  "duplicates_test": 0,
+  "class_distribution_train": {
+    "0": 190833,
+    "1": 249999
+  },
+  "class_percent_train": {
+    "0": 43.29,
+    "1": 56.71
+  },
+  "numeric_summary": [
+    {
+      "Feature": "Age",
+      "count": 440832.0,
+      "mean": 39.37,
+      "std": 12.44,
+      "min": 18.0,
+      "25%": 29.0,
+      "50%": 39.0,
+      "75%": 48.0,
+      "max": 65.0
+    },
+    {
+      "Feature": "Tenure",
+      "count": 440832.0,
+      "mean": 31.26,
+      "std": 17.26,
+      "min": 1.0,
+      "25%": 16.0,
+      "50%": 32.0,
+      "75%": 46.0,
+      "max": 60.0
+    },
+    {
+      "Feature": "Usage Frequency",
+      "count": 440832.0,
+      "mean": 15.81,
+      "std": 8.59,
+      "min": 1.0,
+      "25%": 9.0,
+      "50%": 16.0,
+      "75%": 23.0,
+      "max": 30.0
+    },
+    {
+      "Feature": "Support Calls",
+      "count": 440832.0,
+      "mean": 3.6,
+      "std": 3.07,
+      "min": 0.0,
+      "25%": 1.0,
+      "50%": 3.0,
+      "75%": 6.0,
+      "max": 10.0
+    },
+    {
+      "Feature": "Payment Delay",
+      "count": 440832.0,
+      "mean": 12.97,
+      "std": 8.26,
+      "min": 0.0,
+      "25%": 6.0,
+      "50%": 12.0,
+      "75%": 19.0,
+      "max": 30.0
+    },
+    {
+      "Feature": "Total Spend",
+      "count": 440832.0,
+      "mean": 631.62,
+      "std": 240.8,
+      "min": 100.0,
+      "25%": 480.0,
+      "50%": 661.0,
+      "75%": 830.0,
+      "max": 1000.0
+    },
+    {
+      "Feature": "Last Interaction",
+      "count": 440832.0,
+      "mean": 14.48,
+      "std": 8.6,
+      "min": 1.0,
+      "25%": 7.0,
+      "50%": 14.0,
+      "75%": 22.0,
+      "max": 30.0
+    }
+  ],
+  "numeric_by_churn": [
+    {
+      "Churn": 0,
+      "Age mean": 36.26,
+      "Age median": 37.0,
+      "Tenure mean": 32.28,
+      "Tenure median": 33.0,
+      "Usage Frequency mean": 16.26,
+      "Usage Frequency median": 17.0,
+      "Support Calls mean": 1.59,
+      "Support Calls median": 1.0,
+      "Payment Delay mean": 10.02,
+      "Payment Delay median": 10.0,
+      "Total Spend mean": 749.95,
+      "Total Spend median": 749.98,
+      "Last Interaction mean": 13.01,
+      "Last Interaction median": 12.0
+    },
+    {
+      "Churn": 1,
+      "Age mean": 41.75,
+      "Age median": 42.0,
+      "Tenure mean": 30.47,
+      "Tenure median": 30.0,
+      "Usage Frequency mean": 15.46,
+      "Usage Frequency median": 15.0,
+      "Support Calls mean": 5.14,
+      "Support Calls median": 5.0,
+      "Payment Delay mean": 15.22,
+      "Payment Delay median": 15.0,
+      "Total Spend mean": 541.29,
+      "Total Spend median": 534.0,
+      "Last Interaction mean": 15.6,
+      "Last Interaction median": 16.0
+    }
+  ],
+  "categorical_counts": {
+    "Gender": {
+      "Male": 250252,
+      "Female": 190580
+    },
+    "Subscription Type": {
+      "Standard": 149128,
+      "Premium": 148678,
+      "Basic": 143026
+    },
+    "Contract Length": {
+      "Annual": 177198,
+      "Quarterly": 176530,
+      "Monthly": 87104
+    }
+  },
+  "categorical_churn_rates": {
+    "Gender": {
+      "Female": 0.6667,
+      "Male": 0.4913
+    },
+    "Subscription Type": {
+      "Basic": 0.5818,
+      "Standard": 0.5607,
+      "Premium": 0.5594
+    },
+    "Contract Length": {
+      "Monthly": 1.0,
+      "Annual": 0.4608,
+      "Quarterly": 0.4603
+    }
+  },
+  "correlations_with_churn": {
+    "Support Calls": 0.5743,
+    "Total Spend": -0.4294,
+    "Payment Delay": 0.3121,
+    "Age": 0.2184,
+    "Last Interaction": 0.1496,
+    "Tenure": -0.0519,
+    "Usage Frequency": -0.0461
+  }
+}

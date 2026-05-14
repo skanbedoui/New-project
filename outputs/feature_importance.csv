@@ -1,16 +1,16 @@
 Feature,Importance
-Contract Length = Monthly,6.046654422215396
-Contract Length = Quarterly,2.7299187094758346
-Contract Length = Annual,2.648295247354153
-Support Calls,2.3329639181157527
-Total Spend,1.4841107347164435
-Gender_Female,0.927822989973352
-Payment Delay,0.8955295217230281
-Last Interaction,0.5277506774855776
-Age,0.5130655261447042
-Subscription Type = Basic,0.33912101486675544
-Gender_Male,0.25938252458832295
-Subscription Type = Premium,0.24386936756620436
-Usage Frequency,0.202825251761872
-Tenure,0.1325316409160658
-Subscription Type = Standard,0.08545008295271976
+Contract Length = Monthly,6.046654577060553
+Contract Length = Quarterly,2.729918770354352
+Contract Length = Annual,2.648295308488853
+Support Calls,2.3329639182526223
+Total Spend,1.484110734757212
+Gender_Female,0.9278230062999747
+Payment Delay,0.8955295212903273
+Last Interaction,0.5277506774870488
+Age,0.5130655263635628
+Subscription Type = Basic,0.3391210260061973
+Gender_Male,0.2593825080826812
+Subscription Type = Premium,0.2438693783394733
+Usage Frequency,0.20282525149575417
+Tenure,0.13253164093015884
+Subscription Type = Standard,0.08545009387157282
