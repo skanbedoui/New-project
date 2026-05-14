@@ -1,10 +1,8 @@
 {
-  "data_path": "C:\\Users\\Mega-PC\\Downloads\\customer_churn_dataset-training-master.csv\\customer_churn_dataset-training-master.csv",
-  "raw_rows": 440833,
-  "clean_rows": 440832,
-  "sample_rows": 25000,
-  "target_name": "Churn",
-  "best_model": "Random Forest",
+  "best_model": "Logistic Regression",
+  "model_path": "models\\churn_prediction_model.pkl",
+  "training_file": "dataset\\customer_churn_dataset-training-master.csv",
+  "testing_file": "dataset\\customer_churn_dataset-testing-master.csv",
   "feature_columns": [
     "Age",
     "Gender",
@@ -83,5 +81,10 @@
       "Monthly",
       "Quarterly"
     ]
-  }
+  },
+  "train_rows_available": 440832,
+  "test_rows_available": 64374,
+  "train_rows_used": 6000,
+  "test_rows_used": 4000,
+  "primary_metric": "F1-score"
 }

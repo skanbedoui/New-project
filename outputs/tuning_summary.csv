@@ -1,4 +1,4 @@
-Model,Best CV F1,Best parameters
-Random Forest,0.9922,"{""classifier__max_depth"": null, ""classifier__n_estimators"": 150}"
-Logistic Regression,0.9027,"{""classifier__C"": 10.0}"
-SVM,0.9014,"{""classifier__estimator__C"": 1.0}"
+Model,Search Method,Best CV F1,Best Parameters
+Logistic Regression,GridSearchCV,0.9124,"{'classifier__C': 10.0, 'classifier__class_weight': None, 'classifier__solver': 'liblinear'}"
+KNN,GridSearchCV,0.9162,"{'classifier__metric': 'minkowski', 'classifier__n_neighbors': 5, 'classifier__weights': 'distance'}"
+Random Forest,RandomizedSearchCV,0.9901,"{'classifier__n_estimators': 100, 'classifier__min_samples_split': 2, 'classifier__min_samples_leaf': 1, 'classifier__max_depth': None, 'classifier__class_weight': 'balanced'}"
