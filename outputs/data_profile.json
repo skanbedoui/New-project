@@ -1,5 +1,5 @@
 {
-  "best_model": "Logistic Regression",
+  "best_model": "Random Forest",
   "model_path": "models\\churn_prediction_model.pkl",
   "training_file": "dataset\\customer_churn_dataset-training-master.csv",
   "testing_file": "dataset\\customer_churn_dataset-testing-master.csv",
@@ -33,7 +33,7 @@
     "Age": {
       "min": 18.0,
       "max": 65.0,
-      "median": 39.0
+      "median": 40.0
     },
     "Tenure": {
       "min": 1.0,
@@ -53,12 +53,12 @@
     "Payment Delay": {
       "min": 0.0,
       "max": 30.0,
-      "median": 12.0
+      "median": 13.0
     },
     "Total Spend": {
       "min": 100.0,
       "max": 1000.0,
-      "median": 661.0
+      "median": 648.965
     },
     "Last Interaction": {
       "min": 1.0,
@@ -82,8 +82,8 @@
       "Quarterly"
     ]
   },
-  "train_rows_available": 440832,
-  "test_rows_available": 64374,
+  "train_rows_available": 404164,
+  "test_rows_available": 101042,
   "train_rows_used": 6000,
   "test_rows_used": 4000,
   "primary_metric": "F1-score"
